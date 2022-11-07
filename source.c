@@ -7,7 +7,7 @@ int main(){
     int sizeNumber = 1600000000;
     int* arr = malloc(sizeof(int)*sizeNumber);
     int i;
-    int sum;
+    double sum;
 
     clock_t begin, end;
     double time_spent = 0.0;
@@ -29,6 +29,5 @@ int main(){
     printf("result: %d / time: %f", sum, time_spent);
 
     // math big brain style
-
 
 }
